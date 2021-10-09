@@ -2,14 +2,12 @@ body{
     margin: 0px;
 	padding: 0px;
 	font-family: 'Cabin', sans-serif;
-
 }
 .fundo{
     background: rgb(140, 84, 180);
 	background: linear-gradient(228deg, rgba(140,84,180,1) 38%, rgba(111,152,212,1) 100%); 
     height: 100vh;
     text-align: center;     
-
 }
 .calculadora{
     position:absolute;
@@ -19,7 +17,6 @@ body{
     transform: translate(-50%, -50%);
     border-radius:15px;
     padding:15px;
-
 }
 .botao{
     background-color: rgb(31,31,31);
@@ -31,7 +28,6 @@ body{
     border: none;
     color: white;
     margin:3px;
-
 }
 h2{
     color: white;
@@ -43,6 +39,8 @@ h2{
 
 h1{
     color: white;
+    margin-top: 0px;
+    padding-top:15px;
 }
 
 #resultado{
@@ -55,5 +53,4 @@ h1{
     text-align:right;
     padding:5px;
     font-size: 25px;
-
 }
