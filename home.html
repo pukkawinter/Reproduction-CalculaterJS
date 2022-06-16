@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Kdam+Thmor+Pro&family=Nuosu+SIL&display=swap" rel="stylesheet">
@@ -12,21 +13,24 @@
     <script src="./aula3.js"></script> 
 </head>
 <body>
-    <div class="fundo">
-        <h1>Nanci Ramos</h1>
-        <div class="note">
+    <div class="contenedor">
+      
+        <!--Aqui empezamos el note-->
+        <div class="motivacion">
             <span><p>
                 Reminder: 
             </p> </span>
             <p>
                The Struggle you're in today, is developing the strength you need tomorrow
             </p>
-            <img src="./poltrona.png" alt="">
-
-
+ 
+            <!--Aqui empezamos la image del sillon-->
+            
         </div>
-        <div class="calculadora">
-            <h2>Calcular </h2>
+        <img src="./poltrona.png" alt="">
+
+        <div class="calculator">
+            <h2>nanci ramos </h2>
             <p id="resultado"></p>
             <table> 
                 <tr> 
@@ -56,12 +60,13 @@
                 <tr> 
                     <td colspan="2"><button class="botao" onclick="insert('0')" style= "width: 106px">0</button></td>
                     <td><button class="botao" onclick="insert('.')">.</button></td>
-                    
                 </tr>
 
             </table>
         </div>
-    </div>
+    </div> 
+      
+    
 </body>
 
 </html>
